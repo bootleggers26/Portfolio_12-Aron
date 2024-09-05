@@ -187,3 +187,124 @@ body {
   width: 155px;
   margin: 0;
 }
+/* section */
+.blog {
+  background-color: #212721;
+  min-height: 800px;
+}
+.flex__blog {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 81px;
+  align-items: center;
+  padding-top: 83px;
+  gap: 157px;
+}
+.h2__flex {
+  display: flex;
+  gap: 20px;
+}
+.h2__blog {
+  color: #d6d1ca;
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.p__blog {
+  color: #d6d1ca;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 28px;
+  cursor: pointer;
+}
+.p__blog:hover {
+  text-decoration: underline;
+}
+.flex__article {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Marketing {
+}
+
+.img__article {
+}
+.text__article {
+  border-radius: 0px 0px 3px 3px;
+  background-color: #4a524a;
+  min-height: 560px;
+}
+.h4__text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 25px;
+  text-align: center;
+  margin: 0;
+}
+.colorCode {
+  border-radius: 2px;
+  background-color: #ff3a1b;
+  width: 53px;
+  margin-top: 21px;
+  margin-left: 30px;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+.colorDesign {
+  border-radius: 2px;
+  background-color: #000dff;
+  width: 67px;
+  margin-top: 21px;
+  margin-left: 30px;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+.colorMarketing {
+  border-radius: 2px;
+  background-color: #00663f;
+  width: 95px;
+  margin-top: 21px;
+  margin-left: 30px;
+  padding-top: 4px;
+  padding-right: 9px;
+}
+.p__text {
+  margin: 0;
+  margin-left: 30px;
+  margin-top: 15px;
+  color: #d6d1ca;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px; /* 100% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 256px;
+}
+.p__link {
+  margin: 0;
+  margin-top: 34px;
+  margin-left: 30px;
+  color: #d6d1ca;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.p__link:hover {
+  text-decoration: underline;
+}
